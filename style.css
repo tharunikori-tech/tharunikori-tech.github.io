@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+.img-logo{
+  width: 90px;
+  height: 80px;
+}
+.footer-img-logo{
+   width: 90px;
+  height: 80px;
+}
+#navitem1{
+  color: #323f4b;
+  font-family: "Roboto";
+}
+#navitem2{
+  color: #323f4b;
+  font-family: "Roboto";
+}
+#navitem3{
+  color: #323f4b;
+  font-family: "Roboto";
+}
+#navitem4{
+  color: #323f4b;
+  font-family: "Roboto";
+}
+#navitem5{
+  color: #323f4b;
+  font-family: "Roboto";
+}
+#navitem6{
+  color: #323f4b;
+  font-family: "Roboto";
+}
+.banner-section-bg-container{
+  height: 100vh;
+  background-size: cover;
+  background-image: url('https://res.cloudinary.com/djhuqjvrl/image/upload/v1766824653/responsive_lg_bg.png');
+}
+.banner-heading{
+  font-family: "Roboto";
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 40px;
+}
+.banner-caption{
+ font-family: "Roboto";
+  color: #ffffff; 
+  font-size: 20px;
+}
+.custom-button{
+  background-color: #d0b200;
+  border-radius: 8px;
+  height: 50px;
+  width: 100px;
+  border-width: 0px;
+   color: #ffffff;
+   margin-right: 20px;
+}
+.custom-online-button{
+  background-color: transparent;
+  border-radius: 8px;
+  height: 50px;
+  width: 100px;
+  border-width: 1px;
+  border-color: #d0b200;
+  color: #ffffff;
+}
+.wcu-section{
+  background-color: #f9fbfe;
+}
+.wcu-section-heading{
+  color: #183b56;
+  font-family: "Roboto";
+  font-size: 40px;
+}
+.wcu-section-description{
+  font-family: "Roboto"
+  color: #5a7184;
+}
+.wcu-card{
+  background-color: #ffffff;
+  text-align: center;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 10px;
+  border-color: #e5eaf4;
+}
+.wcu-card-img{
+  height: 90px;
+  width: 88px;
+}
+.card-title{
+  font-family: "Roboto";
+  font-weight: 500px;
+  font-size: 22px;
+  color: #323f47;
+}
+.offers{
+  font-weight: bold;
+  font-family: "bree Serif";
+}
+.explore-menu-section{
+  background-color: white;
+}
+.menu-section-heading{
+  font-family: "Roboto";
+  color: #183b56;
+  font-size: 28px;
+}
+.menu-item-image{
+  border-radius: 16px;
+  height: 300px;
+}
+.menu-card-title{
+  color: #323fab;
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 24px;
+  font-family: "Roboto";
+}
+.menu-item-link{
+  color: #d0b200;
+  font-family: "Roboto";
+  font-size: 14px;
+  font-weight: bold;
+}
+.menu-card{
+  background-color: #f4fceb;
+  border-radius: 8px;
+}
+.health-food-section{
+background-color: #fcf8f7;
+}
+.delivery-payment-section{
+  background-color: #fcf8f7;
+}
+.health-food-section-heading{
+ color: #323fab;
+ font-family: "roboto";
+ font-size: 30px;
+ font-weight: bold;
+}
+.thanking-customers-section{
+  background-image: radial-gradient(#fff8db,#fac343) ;
+  width: 100vw;
+  height: 100vh;
+}
+.thanking-customers-section-heading{
+ color: #323fab;
+ font-family: "roboto";
+ font-size: 30px;
+ font-weight: bold;
+}
+.delivery-payment-section-heading{
+ color: #323fab;
+ font-family: "roboto";
+ font-size: 30px;
+ font-weight: bold;
+}
+.delivery-img{
+  width: 300px;
+  height: 300px;
+}
+.small-images{
+  width: 50px;
+  height: 50px;
+  margin: 20px;
+}
+.button1{
+  padding: 5px;
+  background-image: radial-gradient(#d0b200,#a58d00);
+  border-width: 0px;
+  width: 100px;
+  height: 50px;
+  border-radius: 8px;
+  color: #ffffff;
+}
+.follow-us-icon-container{
+  border-radius: 40px;
+  width: 80px;
+  height: 80px;
+  background-color: #faf7e8;
+  padding-top: 22px;
+  padding-bottom: 15px;
+  padding-right: 16px;
+  padding-left: 22px;
+  margin: 15px;
+}
+.icon{
+  color: #d0b200;
+}
+.follow-us-section{
+ font-family: "roboto";
+ font-weight: bold;
+ text-align: center;
+}
+.footer-section{
+  background-color: #a7d9fc;
+  padding: 15px;
+}
+.thanking-customer-section-modal-title{
+  color: #d0b200;
+  font-weight: 800;
+}
