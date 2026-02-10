@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Page</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="static-css.css">
+</head>
+<body>
+  <div id="section-home-page" data-default data-section>
+    <div class="bg-home-container d-flex flex-column justify-content-end">
+    <div class="home-card">
+       <h1 class="main-heading">Expolore paradise</h1>
+       <p class ="para">Discover the worlds most beautiful destinartions and create un forgettable memories</p>
+       <button class="button-1" onClick="display('section-view')">Explore places</button>
+    </div>
+  </div>
+  </div>
+  <div id="section-view" data-section>
+    <div class="container">
+        <div onClick="display('section-home-page')" class="arrow">
+          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16">
+          <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8"/>
+          </svg>
+        </div>
+        <h1 style="color:#1a472a" >Popular Destinations</h1>
+        <p>Your favourite travel spots. </p>
+        <button class="view-b"></button>
+        <div class="image-container d-flex flex-row ">
+          <div class="firstpara">
+            <h2 style="color:#1a472a">Bali,Indonesia</h1>
+            <p class="view-p"> tropical paradise with stunning beaches and temples</p>
+          </div>
+          <img src="https://res.cloudinary.com/djhuqjvrl/image/upload/v1764598211/Bali_Indonesia_cc0dqx.jpg" class="image" onClick="display('section-bali')"/>
+        </div>
+        <div class="image-container d-flex flex-row">
+          <div class="firstpara">
+            <h2 style="color:#1a472a">Paris,France</h1>
+            <p class="view-p"> The City of Light with iconic landmarks and romance</p>
+          </div>
+          <img src="https://images.unsplash.com/photo-1565881606991-789a8dff9dbb?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8ZnJlZSUyMHBhcmlzJTIwaW1hZ2VzfGVufDB8fDB8fHww" class="image" onClick="display('section-paris')"/>
+        </div>
+        <div class="image-container d-flex flex-row">
+          <div class="firstpara">
+              <h2 style=style="color:#1a472a">Tokyo,Japan</h1>
+              <p class="view-p"> Modern metropolis blending tradition and innovation</p>
+          </div>
+           <img src="https://res.cloudinary.com/djhuqjvrl/image/upload/v1764598210/New_York_USA_b4o5wp.jpg" class="image" onClick="display('section-tokyo')"/>
+        </div>
+        <div class="image-container d-flex flex-row">
+          <div class="firstpara">
+              <h2 style=style="color:#1a472a">Swiss Alps</h1>
+              <p class="view-p"> Megestic mountains with breathing Alpine Scenery/p>
+          </div>
+           <img src="https://res.cloudinary.com/djhuqjvrl/image/upload/v1764598211/Bali_Indonesia_cc0dqx.jpg" class="image" onClick="display('section-swiss')"/>
+        </div>
+        <div class="image-container d-flex flex-row">
+          <div class="firstpara">
+              <h2 style=style="color:#1a472a">New York,USA</h1>
+              <p class="view-p">The city that never sleeps with world-class attractions</p>
+          </div>
+           <img src="https://res.cloudinary.com/djhuqjvrl/image/upload/v1765538313/Newyork-usa_xg9plr.jpg" class="image" onClick="display('section-newyork')"/>
+        </div>
+      </div>
+  </div>
+  <div id="section-bali" data-section>
+    <div>
+       <div onClick="display('section-view')"><svg xmlns="http://www.w3.org/2000/svg" width="50" height="40" fill="currentColor" class="bi bi-arrow-left-circle-fill" viewBox="0 0 16 16">
+           <path d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0m3.5 7.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5z"/>
+           </svg>
+        </div>
+       <div class=" d-flex flex-column justify-content-end">
+          <img src="https://res.cloudinary.com/djhuqjvrl/image/upload/v1765537952/bali-indonesia_umsvtu.jpg" class = "bg-bali-image"/>
+         <div class="card">
+            <h1 style="color:#333333">Bali,Indonesia</h1>
+            <p style="color:orange"> ⭐⭐⭐⭐⭐4.8/6 (1,234 reviews)</p>
+          <div class="d-flex flex-row">
+            <div class="duration-card">
+            <p  style="padding-top:20px; color:#666">BEST TIME</p>
+            <h2 style="color:#333333; padding-bottom:20px">Mar-May</h2>
+          </div>
+      <div class="duration-card">
+       <p style="padding-top:20px; color:#666">DURATION</p> 
+       <h2 style="color:#333333; padding-bottom:20px">5-7 Days</h2>
+      </div>
+      </div><br/>
+      <h3 style="color:#333333">About</h3>
+      <p style="color:#666">Bali is a paradise destination in Indonesia known for its pristine beaches, terraced rice paddies, and ancient temples.The island offers a perfect blend of relaxation, adventure, and cultural experiences.</p>
+      <h3 style="color:#333333">Must-See Attractions</h3>
+      <p style="color:#666">Ubud Royal Palace, Mount Batur, Tanah Lot Temple, Seminyak Beach, Sacred Monkey Forest</p>
+      <h3 style="color:#333333">Budget Estimate</h3>
+      <p style="color:#666">$30–50 per day including accommodation, food, and activities</p>
+      <button class="plan-visit">Plan Your Visit</button>
+        </div>
+       </div>
+  </div>
+  </div>
+  <div id="section-paris" data-section>
+    <div >
+    <div class=" bg-image" onClick="display('section-view')">
+      <svg xmlns="http://www.w3.org/2000/svg" width="50" height="40" fill="black" class="bi bi-arrow-left-circle-fill" viewBox="0 0 16 16">
+      <path d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0m3.5 7.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5z"/>
+      </svg>
+    </div>
+   <div class="bg-container d-flex flex-column justify-content-end">
+     <img src="https://res.cloudinary.com/djncxcvcl/image/upload/v1765545867/paris1_uizucc.jpg" class="bg-bali-image" >
+    <div class="card">
+      <h1 style="color:#333333">Paris,France</h1>
+      <p style="color:orange"> ⭐⭐⭐⭐⭐4.8/6 (1,234 reviews)</p>
+      <div class="d-flex flex-row">
+        <div class="duration-card">
+        <p  style="padding-top:20px; color:#666">BEST TIME</p>
+        <h2 style="color:#333333; padding-bottom:20px">Apr-June</h2>
+      </div>
+      <div class="duration-card">
+       <p style="padding-top:20px; color:#666">DURATION</p> 
+       <h2 style="color:#333333; padding-bottom:20px">4-6 Days</h2>
+      </div>
+      </div>
+      </div><br/>
+      <h3 style="color:#333333">About</h3>
+      <p style="color:#666">Paris, the capital of France, is renowned as the City of Light. It's home to world-famous landmarks like the Eiffel Tower and Louvre Museum, along with charming cafes and romantic streets.</p>
+      <h3 style="color:#333333">Must-See Attractions</h3>
+      <p style="color:#666">Eiffel Tower, Louvre Museum, Notre-Dame, Arc de Triomphe, Sacré-Cœur</p>
+      <h3 style="color:#333333">Budget Estimate</h3>
+      <p style="color:#666">$60–100 per day including accommodation, dining, and attractions</p>
+      <button class="plan-visit">Plan Your Visit</button>
+    </div>
+  </div>
+  </div>
+  <div id="section-swiss" data-section>
+    <div >
+    <div  onClick="display('section-view')">
+      <svg xmlns="http://www.w3.org/2000/svg" width="50" height="40" fill="black" class="bi bi-arrow-left-circle-fill" viewBox="0 0 16 16">
+      <path d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0m3.5 7.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5z"/>
+      </svg>
+    </div>
+   <div class="bg-container d-flex flex-column justify-content-end">
+     <img src="https://res.cloudinary.com/djhuqjvrl/image/upload/v1765538222/swiss-alps_wuvvvj.jpg" class=" bg-swiss-image"/>
+     <div class="card">
+      <h1 style="color:#333333">Swiss,API</h1>
+      <p style="color:orange"> ⭐⭐⭐⭐⭐4.8/6 (1,234 reviews)</p>
+      <div class="d-flex flex-row">
+        <div class="duration-card">
+        <p  style="padding-top:20px; color:#666">BEST TIME</p>
+        <h2 style="color:#333333; padding-bottom:20px">June-Sep</h2>
+      </div>
+      <div class="duration-card">
+       <p style="padding-top:20px; color:#666">DURATION</p> 
+       <h2 style="color:#333333; padding-bottom:20px">4-6 Days</h2>
+      </div>
+      </div><br/>
+      <h3 style="color:#333333">About</h3>
+      <p style="color:#666"></p>The Swiss Alps offer breathtaking mountain scenery with picturesque villages, hiking trails, and ski resorts. Experience alpine beauty and Swiss hospitality in this stunning mountain region.</p>
+      <h3 style="color:#333333">Must-See Attractions</h3>
+      <p style="color:#666">Jungfraujoch, Matterhorn, Interlaken, Zermatt, Alpine hiking trails</p>
+      <h3 style="color:#333333">Budget Estimate</h3>
+      <p style="color:#666">$80–120 per day including accommodation, meals, and cable cars</p>
+      <button class="plan-visit">Plan Your Visit</button>
+    </div>
+   </div>
+  </div>
+  </div>
+  <div id="section-tokyo" data-section>
+    <div >
+    <div onClick="display('section-view')">
+      <svg xmlns="http://www.w3.org/2000/svg" width="50" height="40" fill="black" class="bi bi-arrow-left-circle-fill" viewBox="0 0 16 16">
+      <path d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0m3.5 7.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5z"/>
+      </svg>
+    </div>
+   <div class="bg-container d-flex flex-column justify-content-end">
+      <img src="https://res.cloudinary.com/djhuqjvrl/image/upload/v1765538088/tokyo-japan_mwg0lk.jpg" class=" bg-tokyo-image"/>
+        <div class="card">
+            <h1 style="color:#333333">Tokyo,Japan</h1>
+            <p style="color:orange"> ⭐⭐⭐⭐⭐4.8/6 (1,234 reviews)</p>
+          <div class="d-flex flex-row">
+            <div class="duration-card">
+            <p  style="padding-top:20px; color:#666">BEST TIME</p>
+            <h2 style="color:#333333; padding-bottom:20px">Mar-May</h2>
+         </div>
+      <div class="duration-card">
+       <p style="padding-top:20px; color:#666">DURATION</p> 
+       <h2 style="color:#333333; padding-bottom:20px">5-7 Days</h2>
+      </div>
+      </div><br/>
+      <h3 style="color:#333333">About</h3>
+      <p style="color:#666"></p>Tokyo is a vibrant metropolis where ultramodern meets traditional. Experience cutting-edge technology, ancient temples, bustling markets, and world-class cuisine in this exciting capital city.</p>
+      <h3 style="color:#333333">Must-See Attractions</h3>
+      <p style="color:#666">Tokyo Tower, Senso-ji Temple, Shibuya Crossing, Meiji Shrine, Tsukiji Market</p>
+      <h3 style="color:#333333">Budget Estimate</h3>
+      <p style="color:#666">$50–80 per day including accommodation, food, and experiences</p>
+      <button class="plan-visit">Plan Your Visit</button>
+    </div>
+   </div>
+  </div>
+  </div>
+  <div id="section-newyork" data-section>
+    <div>
+      <div >
+      <div onClick="display('section-view')"><svg xmlns="http://www.w3.org/2000/svg" width="50" height="40" fill="black" class="bi bi-arrow-left-circle-fill" viewBox="0 0 16 16">
+      <path d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0m3.5 7.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5z"/>
+      </svg></div>
+      <div class=" d-flex flex-column justify-content-end">
+        <img src="https://res.cloudinary.com/djhuqjvrl/image/upload/v1765538088/tokyo-japan_mwg0lk.jpg" class="bg-newyork-image"/>
+    <div class="card">
+      <h1 style="color:#333333">Newyork,USA</h1></h1>
+      <p style="color:orange"> ⭐⭐⭐⭐⭐4.8/6 (1,234 reviews)</p>
+      <div class="d-flex flex-row">
+        <div class="duration-card">
+        <p  style="padding-top:20px; color:#666">BEST TIME</p>
+        <h2 style="color:#333333; padding-bottom:20px">Sep-Nov</h2>
+      </div>
+      <div class="duration-card">
+       <p style="padding-top:20px; color:#666">DURATION</p> 
+       <h2 style="color:#333333; padding-bottom:20px">4-5 Days</h2>
+      </div>
+      </div><br/>
+      <h3 style="color:#333333">About</h3>
+      <p style="color:#666"></p>New York City is a dynamic metropolis pulsing with energy 24/7. From Broadway shows to world-class museums, diverse neighborhoods, and iconic landmarks, NYC never fails to impress.</p>
+      <h3 style="color:#333333">Must-See Attractions</h3>
+      <p style="color:#666">Statue of Liberty, Times Square, Central Park, Empire State Building, Brooklyn Bridge</p>
+      <h3 style="color:#333333">Budget Estimate</h3>
+      <p style="color:#666">$100–150 per day including accommodation, dining, and activities</p>
+      <button class="plan-visit">Plan Your Visit</button>
+    </div>
+   </div>
+    </div>
+  </div>
+  </div>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/Zorvixe/zorvixe-ui-kit/dist/zorvixe-ui-kit.js"></script>
+</body>
+</html>
