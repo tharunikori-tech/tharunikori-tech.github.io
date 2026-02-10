@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+.bg-home-container{
+  text-align: center;
+  background-image:url("https://res.cloudinary.com/djhuqjvrl/image/upload/v1764610174/home-bg_oflcds.jpg");
+  height: 100vh;
+  width:100vw;
+  background-size: cover;
+}
+.home-card{
+  background-color: white;
+  border-radius: 30px;
+  height: 40vh;
+  margin: 20px;
+  padding:30px;
+}
+.main-heading{
+  font-family:"Roboto";
+  color: #1a472a;
+  font-weight: bold;
+}
+.button-1{
+  background-color:  #1a472a;
+  height: 45px;
+  width:200px;
+  border-radius:40px;
+  border-width:0px;
+  color: #ffffff;
+  font-weight: bold;
+}
+.para{
+  font-family: "Roboto";
+}
+.container{
+  background-color:white;
+  background-color:white;
+  text-align: center;
+  height: 160vh;
+  width:100vw;
+  font-family:"Roboto";
+}
+.view-b{
+  background-color: black;
+  width:90vw;
+}
+.image-container{
+  border-radius:20px;
+  background-color: white;
+  padding:10px;
+  margin:15px;
+  text-align: left;
+  height:23vh ;
+  border:1px solid black;
+  border-color:#faeeed;
+}
+.image{
+  text-align:right
+  height: 140px;
+  width:130px;
+  margin-left: 30px;
+  border-top-right-radius:10px;
+  border-bottom-right-radius:10px;
+}
+.view-p{
+  color:#666;
+}
+.arrow{
+  text-align: left;
+}
+.firstpara{
+ padding:16px;  
+}
+.card{
+  background-color: white;
+  margin:2px;
+  padding:10px;
+}
+.duration-card{
+  border-radius:10px;
+  background-color: rgba(0,0,0,0.1);
+  border-left:5px solid brown;
+  margin:5px;
+  width:50vw;
+  text-align: center;
+}
+.plan-visit{
+  border-radius: 5px;
+  border-width:0px;
+  background-color: #d4a574;
+  height: 6vh;
+  width:90vw;
+  color: white;
+}
+.bg-swiss-image{
+  height: 50vh;
+  width:100vw;
+  background-size: cover;
+}
+.bg-bali-image{
+  height: 50vh;
+  width:100vw;
+  background-size: cover;
+}
+.bg-tokyo-image{
+  height: 50vh;
+  width:100vw;
+ background-size: cover;
+}
+.bg-newyork-image{
+  height: 50vh;
+  width:100vw;
+  background-size: cover;
+}
